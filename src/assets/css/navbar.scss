@@ -1,0 +1,12 @@
+.contact-us {
+  span {
+    transition: 0.3s margin-right;
+    margin-right: 0px;
+  }
+
+  &:hover {
+    span {
+      margin-right: -10px;
+    }
+  }
+}

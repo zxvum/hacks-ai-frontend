@@ -1,0 +1,28 @@
+.wrapper {
+  background-image: url("../images/scroll-block-bg.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.circle {
+  @apply w-[160px] h-[160px] rounded-full flex items-center justify-center text-white transition-all ease-out duration-500;
+}
+
+.circle.circle-border {
+  @apply ml-[-40px] border border-dashed border-white border-opacity-40 text-opacity-50;
+}
+
+.circle.circle-top {
+  @apply mb-[-40px];
+}
+
+.circle.circle-bottom {
+  @apply mt-[-40px];
+}
+
+.circle.circle-active {
+  @apply border border-solid border-[#7033F5] bg-[#7033F5];
+  box-shadow: 0px 0px 10px 2px #7033F5;
+  backdrop-filter: blur(2px);
+}

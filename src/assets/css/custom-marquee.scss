@@ -1,0 +1,5 @@
+.marquee-text {
+  @apply text-[64px] font-bold uppercase text-[#141414];
+  text-shadow: 2px 0 #28E276, -2px 0 #28E276, 0 2px #28E276, 0 -2px #28E276,
+  1px 1px #28E276, -1px -1px #28E276, 1px -1px #28E276, -1px 1px #28E276, 0px 0px 12px rgba(40, 226, 118, 0.8);;
+}
